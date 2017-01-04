@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dockerhub-event-imagepushed",
+    "execute-command": "/var/scripts/ifttt-maker-post.sh",
+    "pass-arguments-to-command": [
+      {
+        "source": "string",
+        "name": "docker_hub"
+      },
+      {
+        "source": "entire-payload"
+      }
+    ]
+  }
+]
