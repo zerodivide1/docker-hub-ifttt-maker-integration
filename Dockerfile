@@ -8,3 +8,5 @@ RUN apk add --update jq
 
 ADD hooks.json /etc/webhook/hooks.json
 ADD ifttt-maker-post.sh /var/scripts/ifttt-maker-post.sh
+
+CMD ["-verbose","-hooks=/etc/webhook/hooks.json"]
