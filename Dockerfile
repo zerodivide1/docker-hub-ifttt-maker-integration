@@ -5,3 +5,4 @@ MAINTAINER Sean Payne <spayne@seanpayne.name>
 ENV IFTTT_MAKER_KEY=KEY_NOT_SET
 
 ADD hooks.json /etc/webhook/hooks.json
+ADD ifttt-maker-post.sh /var/scripts/ifttt-maker-post.sh
