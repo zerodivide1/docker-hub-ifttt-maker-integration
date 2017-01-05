@@ -2,6 +2,7 @@
   {
     "id": "dockerhub-event-imagepushed",
     "execute-command": "/var/scripts/ifttt-maker-post.sh",
+    "command-working-directory": "/var/scripts",
     "pass-arguments-to-command": [
       {
         "source": "string",
